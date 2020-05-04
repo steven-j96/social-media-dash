@@ -8,9 +8,23 @@
     <title>Social Media Dash</title>
 </head>
 <body>
-    <div class="socialDash">
-        <div class="mainCards">
-            <div id="fb" class="card mg-r-3">
+    <div class="socialDash background-dark">
+        <div class="top-background top-background-dark">
+            
+        </div>
+        <div id="header">
+            <div id="title">
+                <h3>Social Media Dashboard</h3>
+                <h5 class="grey">Total Followers: 23,004</h5>
+            </div>
+            <div id="toggle">
+                <h5><span id="mode-text" class="mode-text-dark">Dark Mode</span></h5>
+                <input type="checkbox" name="switch" id="switch">
+            </div>
+        </div>
+
+        <div id="mainCards">
+            <div id="fb" class="card mg-r-3 fb-border cards-dark">
                 <div class="title">
                     <img src="images/icon-facebook.svg" alt="facebook icon">
                     <p>@nathanf</p>
@@ -21,52 +35,181 @@
                 </div>
                 <div class="footer">
                     <img src="images/icon-up.svg" alt="up icon">
-                    <p>12 Today</p>
+                    <p class="up">12 Today</p>
                 </div>
             </div>
-            <div id="twitter" class="card mg-r-3">
+            <div id="twitter" class="card mg-r-3 tw-border cards-dark">
                 <div class="title">
-                    <img src="images/icon-facebook.svg" alt="facebook icon">
+                    <img src="images/icon-twitter.svg" alt="twitter icon">
                     <p>@nathanf</p>
                 </div>
                 <div class="body">
-                    <h1>1987</h1>
+                    <h1>1044</h1>
                     <p>FOLLOWERS</p>
                 </div>
                 <div class="footer">
                     <img src="images/icon-up.svg" alt="up icon">
-                    <p>12 Today</p>
+                    <p class="up">99 Today</p>
                 </div>
             </div>
-            <div id="insta" class="card mg-r-3">
+            <div id="insta" class="card mg-r-3 inst-border cards-dark">
                 <div class="title">
-                    <img src="images/icon-facebook.svg" alt="facebook icon">
-                    <p>@nathanf</p>
+                    <img src="images/icon-instagram.svg" alt="instagram icon">
+                    <p>@realnathanf</p>
                 </div>
                 <div class="body">
-                    <h1>1987</h1>
+                    <h1>11K</h1>
                     <p>FOLLOWERS</p>
                 </div>
                 <div class="footer">
                     <img src="images/icon-up.svg" alt="up icon">
-                    <p>12 Today</p>
+                    <p class="up">1099 Today</p>
                 </div>
             </div>
-            <div id="youtube" class="card">
+            <div id="youtube" class="card yout-border cards-dark">
                 <div class="title">
-                    <img src="images/icon-facebook.svg" alt="facebook icon">
-                    <p>@nathanf</p>
+                    <img src="images/icon-youtube.svg" alt="youtube icon">
+                    <p>Nathan F.</p>
                 </div>
                 <div class="body">
-                    <h1>1987</h1>
+                    <h1>8239</h1>
                     <p>FOLLOWERS</p>
                 </div>
                 <div class="footer">
-                    <img src="images/icon-up.svg" alt="up icon">
-                    <p>12 Today</p>
+                    <img src="images/icon-down.svg" alt="down icon">
+                    <p class="down">144 Today</p>
+                </div>
+            </div>
+        </div>
+        
+        <div id="secondSection">
+            <div id="secondaryTitle">
+                <h3>Overview - Today</h3>
+            </div>
+            <div id="fb-views" class="card mg-r-3 mg-b-3 cards-dark">
+                <div class="header">
+                    <h5>Page Views</h5>
+                    <img src="images/icon-facebook.svg" alt="facebook icon">
+                </div>
+                <div class="footer">
+                    <h2 class="number">87</h2>
+                    <div class="difference">
+                        <div class="difference-inner">
+                            <img src="images/icon-up.svg">
+                            <p class="up">3%</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="fb-likes" class="card mg-r-3 mg-b-3 cards-dark">
+                <div class="header">
+                    <h5>Likes</h5>
+                    <img src="images/icon-facebook.svg" alt="facebook icon">
+                </div>
+                <div class="footer">
+                    <h2 class="number">52</h2>
+                    <div class="difference">
+                        <div class="difference-inner">
+                            <img src="images/icon-down.svg">
+                            <p class="down">2%</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="inst-likes" class="card mg-r-3 mg-b-3 cards-dark">
+                <div class="header">
+                    <h5>Likes</h5>
+                    <img src="images/icon-instagram.svg" alt="instagram icon">
+                </div>
+                <div class="footer">
+                    <h2 class="number">5462</h2>
+                    <div class="difference">
+                        <div class=difference-inner>
+                            <img src="images/icon-up.svg">
+                            <p class="up">2257%</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="inst-views" class="card mg-b-3 cards-dark">
+                <div class="header">
+                    <h5>Profile Views</h5>
+                    <img src="images/icon-instagram.svg" alt="instagram icon">
+                </div>
+                <div class="footer">
+                    <h2 class="number">52K</h2>
+                    <div class="difference">
+                        <div class="difference-inner">
+                            <img src="images/icon-up.svg">
+                            <p class="up">1375%</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="twitt-retweet" class="card mg-r-3 mg-b-3 cards-dark">
+                <div class="header">
+                    <h5>Retweets</h5>
+                    <img src="images/icon-twitter.svg" alt="twitter icon">
+                </div>
+                <div class="footer">
+                    <h2 class="number">117</h2>
+                    <div class="difference">
+                        <div class="difference-inner">
+                            <img src="images/icon-up.svg">
+                            <p class="up">303%</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="twitt-likes" class="card mg-r-3 mg-b-3 cards-dark">
+                <div class="header">
+                    <h5>Likes</h5>
+                    <img src="images/icon-twitter.svg" alt="twitter icon">
+                </div>
+                <div class="footer">
+                    <h2 class="number">507</h2>
+                    <div class="difference">
+                        <div class="difference-inner">
+                            <img src="images/icon-up.svg">
+                            <p class="up">553%</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="yout-likes" class="card mg-r-3 mg-b-3 cards-dark">
+                <div class="header">
+                    <h5>Likes</h5>
+                    <img src="images/icon-youtube.svg" alt="youtube icon">
+                </div>
+                <div class="footer">
+                    <h2 class="number">107</h2>
+                    <div class="difference">
+                        <div class="difference-inner">
+                            <img src="images/icon-down.svg">
+                            <p class="down">19%</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="yout-views" class="card mg-b-3 cards-dark">
+                <div class="header">
+                    <h5>Total Views</h5>
+                    <img src="images/icon-youtube.svg" alt="youtube icon">
+                </div>
+                <div class="footer">
+                    <h2 class="number">1407</h2>
+                    <div class="difference">
+                        <div class="difference-inner">
+                            <img src="images/icon-down.svg">
+                            <p class="down">12%</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+    <section id="scripts">
+        <script src="script.js"></script>
+    </section>
 </body>
 </html>
